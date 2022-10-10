@@ -1,0 +1,89 @@
+:root {
+  --value1: 65;
+  --value2: 28;
+  --value3: 90;
+  --size: 8rem;
+  --fg: #369;
+  --bg: #6bd1b752;
+  --pgPercentage1: var(--value1);
+  --pgPercentage2: var(--value2);
+  --pgPercentage3: var(--value3);
+}
+
+body {
+  background-color: #f9f9f9d4;
+}
+
+@keyframes growProgressBar {
+
+  0%,
+  33% {
+    --pgPercentage1: 0;
+    --pgPercentage2: 0;
+    --pgPercentage3: 0;
+  }
+
+  100% {
+    --pgPercentage1: var(--value1);
+    --pgPercentage2: var(--value2);
+    --pgPercentage3: var(--value3);
+  }
+}
+
+@property --pgPercentage1 {
+  syntax: '<number>';
+  inherits: false;
+  initial-value: 0;
+}
+
+@property --pgPercentage2 {
+  syntax: '<number>';
+  inherits: false;
+  initial-value: 0;
+}
+
+@property --pgPercentage3 {
+  syntax: '<number>';
+  inherits: false;
+  initial-value: 0;
+}
+
+div[role="progressbar1"],
+div[role="progressbar2"],
+div[role="progressbar3"] {
+  animation: growProgressBar 3s 1 forwards;
+  width: var(--size);
+  height: var(--size);
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: calc(var(--size) / 5);
+}
+
+div[role="progressbar1"] {
+  background: radial-gradient(closest-side, #6d28d9 80%, transparent 0 99.9%, white 0), conic-gradient(#ffffff calc(var(--pgPercentage1) * 1%), #ffffff3d 0);
+}
+
+div[role="progressbar2"] {
+  background: radial-gradient(closest-side, #FFF 80%, transparent 0 99.9%, #CCC 0), conic-gradient(#ffeb3b calc(var(--pgPercentage2) * 1%), #f5f1f1 0);
+}
+
+div[role="progressbar3"] {
+  background: radial-gradient(closest-side, #FFF 80%, transparent 0 99.9%, #CCC 0), conic-gradient(#f44336 calc(var(--pgPercentage3) * 1%), #f5f1f1 0);
+}
+
+div[role="progressbar1"]::before {
+  counter-reset: percentage var(--value1);
+  content: counter(percentage) '%';
+}
+
+div[role="progressbar2"]::before {
+  counter-reset: percentage2 var(--value2);
+  content: counter(percentage2) '%';
+}
+
+div[role="progressbar3"]::before {
+  counter-reset: percentage3 var(--value3);
+  content: counter(percentage3) '%';
+}

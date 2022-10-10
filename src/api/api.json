@@ -1,0 +1,128 @@
+{
+    "cars": [
+        {
+            "id": 1,
+            "name": "Car1",
+            "type": "Manual",
+            "price": 400,
+            "img": "https://i.ibb.co/fxCXdS3/car.png",
+            "recommend_percentage": 40,
+            "users": 300,
+            "background": "#e1dfa4",
+            "modern": "new",
+            "model": "toyota"
+        },
+        {
+            "id": 2,
+            "name": "Car2",
+            "type": "Automatic",
+            "price": 300,
+            "img": "https://i.ibb.co/BZ4k8TS/maruti-suzuki-suzuki-swift-car-suzuki-9c5818c39cb279f9dc7f844d7769288f.png",
+            "recommend_percentage": 50,
+            "users": 500,
+            "background": "#e3ecf1",
+            "modern": "old",
+            "model": "bmw"
+        },
+        {
+            "id": 3,
+            "name": "Car3",
+            "type": "Automatic",
+            "price": 200,
+            "img": "https://i.ibb.co/WGZYhJW/mini-countryman-car-bmw-mini-cooper-mini-406b2a24c59d99a8096f336f22982573.png",
+            "recommend_percentage": 60,
+            "users": 600,
+            "background": "#f4e3e5",
+            "modern": "new",
+            "model": "audi"
+        },
+        {
+            "id": 4,
+            "name": "Car4",
+            "type": "Manual",
+            "price": 500,
+            "img": "https://i.ibb.co/ChPq33Q/suzuki-ertiga-maruti-car-suzuki-ciaz-suzuki-dcac04d3f676c91c7ca6f2d195b86ff3.png",
+            "recommend_percentage": 70,
+            "users": 600,
+            "modern": "old",
+            "model": "audi"
+        },
+        {
+            "id": 5,
+            "name": "Car5",
+            "type": "Automatic",
+            "price": 500,
+            "img": "https://i.ibb.co/JnS3ctV/toyota-innova-toyota-avanza-car-rush-toyota-seven-cars-a3650fca54041ac1aaae4fe013ac79ca-1.png",
+            "recommend_percentage": 30,
+            "users": 700,
+            "modern": "new",
+            "model": "toyota"
+        },
+        {
+            "id": 6,
+            "name": "Car6",
+            "type": "Manual",
+            "price": 500,
+            "img": "https://i.ibb.co/x2t0m24/car-audi-a3-audi-a4-car-3822c2bc08e2c2bce1d8ead0e70c7ddb-1.png",
+            "recommend_percentage": 55,
+            "users": 200,
+            "modern": "old",
+            "model": "audi"
+        },
+        {
+            "id": 7,
+            "name": "Car7",
+            "type": "Automatic",
+            "price": 500,
+            "img": "https://i.ibb.co/3kx0khp/2014-mercedes-benz-m-class-2012-mercedes-benz-m-class-2008-mercedes-benz-m-class-sport-utility-vehic.png",
+            "recommend_percentage": 80,
+            "users": 400,
+            "modern": "new",
+            "model": "bmw"
+        },
+        {
+            "id": 8,
+            "name": "Car8",
+            "type": "Manual",
+            "price": 500,
+            "img": "https://i.ibb.co/0mhpCXt/white-car-1.png",
+            "recommend_percentage": 70,
+            "users": 500,
+            "modern": "new",
+            "model": "audi"
+        },
+        {
+            "id": 9,
+            "name": "Car9",
+            "type": "Automatic",
+            "price": 500,
+            "img": "https://i.ibb.co/ckxq6NF/2014-mercedes-benz-m-class-2012-mercedes-benz-m-class-2008-mercedes-benz-m-class-sport-utility-vehic.png",
+            "recommend_percentage": 40,
+            "users": 300,
+            "modern": "old",
+            "model": "toyota"
+        },
+        {
+            "id": 10,
+            "name": "Car10",
+            "type": "Manual",
+            "price": 500,
+            "img": "https://i.ibb.co/SNwbN0C/car-audi-a3-audi-a4-car-3822c2bc08e2c2bce1d8ead0e70c7ddb.png",
+            "recommend_percentage": 30,
+            "users": 300,
+            "modern": "old",
+            "model": "bmw"
+        },
+        {
+            "id": 11,
+            "name": "Car11",
+            "type": "Automatic",
+            "price": 500,
+            "img": "https://i.ibb.co/jMsV2zJ/white-car.png",
+            "recommend_percentage": 35,
+            "users": 200,
+            "modern": "old",
+            "model": "audi"
+        }
+    ]
+}
